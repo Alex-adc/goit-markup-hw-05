@@ -16,7 +16,7 @@
         <nav class="navigation">
             <a class="logo" lang="en" href="#">Web<span class="logo-s">Studio</span></a>
             <ul class="menu-list">
-                <li class="menu-list-item">
+                <li class="menu-list-item active">
                     <a class="menu-list-link" href="#">Студия</a>
                 </li>
                 <li class="menu-list-item">
@@ -49,8 +49,17 @@
       <!-- HERO -->
       <section class="hero">
           <h1 class="hero-title">Эффективные решения <br>для вашего бизнеса</h1>
-          <button class="modal-btn" type="button">Заказать услугу</button> 
+          <button class="modal-btn" type="button" data-modal-open>Заказать услугу</button>
       </section>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button class="close-button" data-modal-close>
+                <svg class="close-svg">
+                    <use href="./images/sprite.svg#icon-close-modal"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
       <!-- ABOUT -->
       <section class="description">
           <div class="container">
@@ -101,16 +110,19 @@
             <h1 class="about-title">Чем мы занимаемся</h1>
             <ul class="about-list">
                 <li class="about-list-item">
-                    <img class="about-list-img" src="./images/about/about-img-1.jpg" alt="печатает на клавиатуре" width="370"
+                    <img src="./images/about/about-img-1.jpg" alt="печатает на клавиатуре" width="370"
                         height="294">
+                    <p class="about-list-item-text">Десктопные приложения</p>
                 </li>
                 <li class="about-list-item">
-                    <img class="about-list-img" src="./images/about/about-img-2.jpg" alt="сидит перед ноутбуком" width="370"
+                    <img src="./images/about/about-img-2.jpg" alt="сидит перед ноутбуком" width="370"
                         height="294">
+                    <p class="about-list-item-text">Мобильные приложения</p>
                 </li>
                 <li class="about-list-item">
-                    <img class="about-list-img" src="./images/about/about-img-3.jpg" alt="держит в руках планшет" width="370"
+                    <img src="./images/about/about-img-3.jpg" alt="держит в руках планшет" width="370"
                         height="294">
+                    <p class="about-list-item-text">Дизайнерские решения</p>
                 </li>
             </ul>
           </div>
@@ -369,6 +381,8 @@
     </div>
     </div>
     </section>
-  </footer>
+   </footer>
+
+  <script src="./js/modal.js"></script>
 </body>
 </html>
