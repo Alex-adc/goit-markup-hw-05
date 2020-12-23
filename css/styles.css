@@ -148,6 +148,22 @@ body {
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.menu-list-link {
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-menu-link {
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-tel {
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contact-list-link {
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .header-menu-mail {
   display: flex;
   align-items: center;
@@ -196,9 +212,17 @@ body {
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.header-menu-link {
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .header-menu-adress:hover .header-tel,
 .header-menu-adress:focus .header-tel {
   fill: var(--accent-text-color);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-menu-adress {
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -331,9 +355,17 @@ body {
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.close-button:hover .close-svg {
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .close-button:hover,
 .close-button:focus {
   border: 1px solid #2196f3;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.close-button {
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -444,9 +476,17 @@ body {
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.social-list-link {
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .social-list-link:hover .social-list-icon,
 .social-list-link:focus .social-list-icon {
   fill: var(--white);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-list-link:hover .social-list-icon {
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -638,9 +678,17 @@ body {
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.customers-list-link {
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .customers-list-item:hover .customers-svg-1,
 .customers-list-item:focus .customers-svg-1 {
   fill: var(--accent-text-color);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.customers-list-item .customers-svg-1 {
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -650,9 +698,17 @@ body {
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.customers-list-item .customers-svg-2 {
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .customers-list-item:hover .customers-svg-3,
 .customers-list-item:focus .customers-svg-3 {
   fill: var(--accent-text-color);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.customers-list-item .customers-svg-3 {
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -662,15 +718,27 @@ body {
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.customers-list-item .customers-svg-4 {
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .customers-list-item:hover .customers-svg-5,
 .customers-list-item:focus .customers-svg-5 {
   fill: var(--accent-text-color);
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.customers-list-item .customers-svg-5 {
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .customers-list-item:hover .customers-svg-6,
 .customers-list-item:focus .customers-svg-6 {
   fill: var(--accent-text-color);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.customers-list-item .customers-svg-6 {
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /*============== END ABOUT ==============*/
@@ -761,9 +829,17 @@ body {
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.social-icons-link-dark .social-icons-svg-footer {
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .social-icons-item:hover .social-icons-link-dark,
 .social-icons-item:focus .social-icons-link-dark {
   background: #2196f3;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-icons-item .social-icons-link-dark {
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -822,6 +898,10 @@ body {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
   color: var(--white);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn {
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -888,6 +968,10 @@ body {
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.container-overlay .offer-overlay {
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .offer-overlay {
   position: absolute;
   bottom: 0;
@@ -912,6 +996,10 @@ body {
 .offer-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.offer-link {
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
